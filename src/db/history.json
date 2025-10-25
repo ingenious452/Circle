@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "contact_id": 1,
+    "title": "Birthday",
+    "message": "Wish Alice a happy birthday! 🎉",
+    "scheduled_time": "2024-10-25T09:00:00",
+    "fired_time": "2024-10-25T09:00:05",
+    "status": "done",
+    "note": "Sent funny meme along with the wish"
+  },
+  {
+    "id": 2,
+    "contact_id": 2,
+    "title": "Weekly Catch-up",
+    "message": "Call Bob to ask about his project",
+    "scheduled_time": "2025-10-19T18:00:00",
+    "fired_time": "2025-10-19T18:00:10",
+    "status": "done",
+    "note": "Discussed new AI research paper"
+  }
+]

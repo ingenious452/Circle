@@ -5,6 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "apscheduler>=3.11.0",
+    "desktop-notifier>=6.2.0",
+    "psutil>=7.1.1",
     "rich>=14.2.0",
     "typer>=0.20.0",
 ]
+
+
+[project.scripts]
+circle = "cli.main:app"

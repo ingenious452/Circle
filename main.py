@@ -1,12 +1,5 @@
-import typer
-from src.cli import daemon
-
-app = typer.Typer()
-
-app.command('start')
-
-app.add_typer(daemon.daemon_app, name="daemon")
+from src.cli import app
 
 
 if __name__ == "__main__":
-    app()
+    app(prog_name="circle")
