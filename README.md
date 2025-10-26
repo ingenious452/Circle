@@ -53,3 +53,45 @@ crcle daemon start
 circle reminder start
 circle reminder stop
 circle reminder status
+
+each contact will have a reminder or multiple reminders one to many relationship
+
+
+# what new or better thing I learn
+1. module and packages are namespaces so when 
+
+> the reason when uv run circle/main.py is executed we get import error for `from circle.core import daemon` is because
+> python is taking `circle/` as the root directory of the project and when it sees circle.core it assumes there is another
+> folder named circle in the current working directory but there isn't any so we get `Module not found error` and when you run it as
+> packager the `sys.path`  or `python`  put the current directory `.` as the directory path so it look into the current directory instead
+> of `circle/` and voila :) everything works!
+
+
+
+2. How closure works
+> these are basically function that are defined inside another function and according to python name sapce rules
+
+[Builtin Box]   ← Python’s internal memory (e.g., len, print, sum)
+     ↑
+[Global Box]    ← Variables defined at top level of your file
+     ↑
+[Enclosing Box] ← Outer function’s memory
+     ↑
+[Local Box]     ← Current function’s memory
+
+
+```python
+def something_fun(message):
+     print(message)
+
+     def other_fun(outside_fun):
+       print(outside_fun)
+         
+    return other_fun  # return a decorator function
+
+@something_fun('helo')   # this is immediately calling something func as we normally would   
+# therefore this function must return a decorator (A function that take another function as an argument)
+class NameFunnyShit:
+    def __init__(self, *values):
+        print(values)
+```

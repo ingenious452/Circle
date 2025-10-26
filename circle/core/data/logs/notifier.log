@@ -1,0 +1,96 @@
+2025-10-26 02:27:06 | notification | ERROR | Error invalid channel type: 'None'
+2025-10-26 02:29:01 | notification | ERROR | Error invalid channel type: 'None'
+2025-10-26 02:31:19 | notification | ERROR | Error invalid channel type: 'None'
+2025-10-26 02:31:27 | notification | ERROR | Error invalid channel type: 'None'
+2025-10-26 02:32:44 | notification | ERROR | Error invalid channel type: 'None'
+2025-10-26 02:33:49 | notification | ERROR | Error invalid channel type: 'None'
+2025-10-26 02:33:50 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-26 02:33:51 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 02:35:03 | notification | ERROR | Error invalid channel type: 'email'
+2025-10-26 02:35:03 | notification | ERROR | Error invalid channel type: '1'
+2025-10-26 02:35:04 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-26 02:35:04 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 03:22:56 | notification | ERROR | Error invalid channel type: 'email'
+2025-10-26 03:22:56 | notification | ERROR | Error invalid channel type: 'email'
+2025-10-26 03:22:59 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 03:24:18 | notification | ERROR | Error invalid channel type: 'email'
+2025-10-26 03:24:18 | notification | ERROR | Error invalid channel type: 'email'
+2025-10-26 03:24:19 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 03:24:41 | notification | ERROR | Error invalid channel type: 'email'
+2025-10-26 03:24:41 | notification | ERROR | Error invalid channel type: 'email'
+2025-10-26 03:24:41 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 03:25:02 | notification | ERROR | Error invalid channel type: 'email'
+2025-10-26 03:25:02 | notification | ERROR | Error invalid channel type: 'email'
+2025-10-26 03:25:03 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 03:26:42 | notification | ERROR | Error invalid channel type: 'email'
+2025-10-26 03:26:42 | notification | ERROR | Error invalid channel type: 'email'
+2025-10-26 03:26:43 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 03:27:29 | notification | ERROR | Error invalid channel type: 'email'
+2025-10-26 03:27:29 | notification | ERROR | Error invalid channel type: 'telegram'
+2025-10-26 03:27:29 | notification | ERROR | Error invalid channel type: 'email'
+2025-10-26 03:27:29 | notification | ERROR | Error invalid channel type: 'telegram'
+2025-10-26 03:29:42 | notification | ERROR | Error invalid channel type: 'email'
+2025-10-26 03:29:42 | notification | ERROR | Error invalid channel type: 'email'
+2025-10-26 03:29:43 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 03:30:21 | notification | ERROR | Error invalid channel type: 'email'
+2025-10-26 03:30:22 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 03:30:44 | notification | ERROR | Error invalid channel type: 'email'
+2025-10-26 03:30:45 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 03:31:03 | notification | ERROR | Error invalid channel type: 'd'
+2025-10-26 03:31:03 | notification | ERROR | Error invalid channel type: 'e'
+2025-10-26 03:31:03 | notification | ERROR | Error invalid channel type: 's'
+2025-10-26 03:31:03 | notification | ERROR | Error invalid channel type: 'k'
+2025-10-26 03:31:03 | notification | ERROR | Error invalid channel type: 't'
+2025-10-26 03:31:03 | notification | ERROR | Error invalid channel type: 'o'
+2025-10-26 03:31:03 | notification | ERROR | Error invalid channel type: 'p'
+2025-10-26 03:31:03 | notification | ERROR | Error invalid channel type: 'email'
+2025-10-26 03:31:04 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 03:31:18 | notification | ERROR | Error invalid channel type: 'email'
+2025-10-26 03:31:19 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 03:32:56 | notification | ERROR | Error invalid channel type: 'email'
+2025-10-26 03:32:56 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 03:33:34 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-26 03:33:53 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-26 03:33:54 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 03:58:44 | notification | WARNING | Invalid channel 'desktop' ignored.
+2025-10-26 03:58:44 | notification | WARNING | Invalid channel 'telegram' ignored.
+2025-10-26 03:58:45 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-26 03:58:46 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 03:59:41 | notification | WARNING | Invalid channel 'desktop' ignored.
+2025-10-26 03:59:41 | notification | WARNING | Invalid channel 'telegram' ignored.
+2025-10-26 03:59:42 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-26 03:59:42 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 04:00:41 | notification | WARNING | Invalid channel 'desktop' ignored.
+2025-10-26 04:00:41 | notification | WARNING | Invalid channel 'telegram' ignored.
+2025-10-26 04:00:42 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-26 04:00:42 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 04:02:03 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-26 04:02:04 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 04:07:44 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-26 04:07:44 | notification | ERROR | Error sending TelegramNotification message: <urlopen error [Errno 11001] getaddrinfo failed>
+2025-10-26 04:07:49 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-26 04:07:49 | notification | ERROR | Error sending TelegramNotification message: <urlopen error [Errno 11001] getaddrinfo failed>
+2025-10-26 04:07:54 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-26 04:07:54 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 04:07:59 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-26 04:07:59 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 04:08:04 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-26 04:08:04 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 04:08:09 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-26 04:08:09 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 04:08:14 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-26 04:08:14 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 04:20:25 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-26 04:20:26 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 04:20:58 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-26 04:20:59 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 17:04:38 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-26 17:04:40 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 17:10:24 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-26 17:10:25 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 18:25:08 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-26 18:25:09 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 18:25:30 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-26 18:25:31 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-26 18:28:12 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-26 18:28:13 | notification | INFO | Sent message via TelegramNotification successfully!
