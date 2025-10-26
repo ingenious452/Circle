@@ -10,5 +10,3 @@ def register_channel(channel_name: str):
         CHANNEL_REGISTRY[channel_name] = channel_class
         return channel_class
     return wrapper
-
-

@@ -95,3 +95,17 @@ class NameFunnyShit:
     def __init__(self, *values):
         print(values)
 ```
+
+
+## Problem: daemon is not workin
+1. I am able to run the process from my script but the typer module is not able to run the program
+
+> solved: the problme was module resolution I was trying to run the daemon as a script which should have been a 
+> run as a package using the infamous `m`
+
+### Problem : my env file was not laoding the bot token for telegram
+
+1. the problem was that when we run the code as module the configuration .env load doesn't work 
+
+to fix: we have to load env using absolute path 
+> Reasoning (short): when you run code as a module or from a different launcher, the current working directory (cwd) and sys.path differ from when you run a script from the project root. python-dotenv's load_dotenv/find_dotenv by default looks relative to the cwd (or uses find_dotenv which searches up from cwd). If the daemon starts with a different cwd or environment, load_dotenv won't locate your .env and TELEGRAM_BOT_TOKEN will be empty → chat_uri built without token

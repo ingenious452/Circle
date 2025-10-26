@@ -1,11 +1,8 @@
 import rich
-
 from circle.core.daemon import get_daemon_manager
 
 
-manager = get_daemon_manager()
-
-
 def daemon_status():
+    manager = get_daemon_manager()
     status = manager.status()
-    rich.print(f"[Daemon] - [yellow]{status}[/yellow]")
+    rich.print(f"daemon {status}")

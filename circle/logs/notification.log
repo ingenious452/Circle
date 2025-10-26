@@ -1,0 +1,284 @@
+2025-10-27 01:35:44 | desktop | INFO | successfully sent notification!
+2025-10-27 01:35:44 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-27 01:35:45 | telegram | ERROR | unexpected error sending notification: HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "D:\Web_Development\kill_enemy\circle\circle_v1\circle\core\notification\channels\telegram.py", line 26, in send
+    with urlopen(request) as response:
+         ^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2025-10-27 01:35:45 | notification | ERROR | Error sending TelegramNotification message: HTTP Error 404: Not Found
+2025-10-27 01:38:25 | telegram | INFO | notification sent
+2025-10-27 01:38:25 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-27 01:38:30 | telegram | INFO | notification sent
+2025-10-27 01:38:30 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-27 01:38:35 | telegram | INFO | notification sent
+2025-10-27 01:38:35 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-27 01:38:40 | telegram | INFO | notification sent
+2025-10-27 01:38:40 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-27 01:40:20 | telegram | ERROR | unexpected error sending notification: HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "D:\Web_Development\kill_enemy\circle\circle_v1\circle\core\notification\channels\telegram.py", line 26, in send
+    with urlopen(request) as response:
+         ^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2025-10-27 01:40:20 | notification | ERROR | Error sending TelegramNotification message: HTTP Error 404: Not Found
+2025-10-27 01:41:36 | telegram | ERROR | unexpected error sending notification: HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "D:\Web_Development\kill_enemy\circle\circle_v1\circle\core\notification\channels\telegram.py", line 26, in send
+    with urlopen(request) as response:
+         ^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2025-10-27 01:41:36 | notification | ERROR | Error sending TelegramNotification message: HTTP Error 404: Not Found
+2025-10-27 01:50:58 | telegram | ERROR | unexpected error sending notification: HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "D:\Web_Development\kill_enemy\circle\circle_v1\circle\core\notification\channels\telegram.py", line 28, in send
+    with urlopen(request) as response:
+         ^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2025-10-27 01:50:58 | notification | ERROR | Error sending TelegramNotification message: HTTP Error 404: Not Found
+2025-10-27 01:54:15 | telegram | ERROR | unexpected error sending notification: HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "D:\Web_Development\kill_enemy\circle\circle_v1\circle\core\notification\channels\telegram.py", line 28, in send
+    with urlopen(request) as response:
+         ^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2025-10-27 01:54:15 | notification | ERROR | Error sending TelegramNotification message: HTTP Error 404: Not Found
+2025-10-27 02:01:47 | notification | ERROR | Unexpected error in TelegramNotification: module 'circle.core.config.config' has no attribute 'CHAT_URI'
+Traceback (most recent call last):
+  File "D:\Web_Development\kill_enemy\circle\circle_v1\circle\core\notification\manager.py", line 39, in notify
+    channel.send(title, message)
+  File "D:\Web_Development\kill_enemy\circle\circle_v1\circle\core\notification\channels\telegram.py", line 25, in send
+    print(f"sending notification via telegram: ", config.CHAT_URI)
+                                                  ^^^^^^^^^^^^^^^
+AttributeError: module 'circle.core.config.config' has no attribute 'CHAT_URI'. Did you mean: 'CHAT_ID'?
+2025-10-27 02:02:24 | telegram | ERROR | unexpected error sending notification: HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "D:\Web_Development\kill_enemy\circle\circle_v1\circle\core\notification\channels\telegram.py", line 28, in send
+    with urlopen(request) as response:
+         ^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2025-10-27 02:02:24 | notification | ERROR | Error sending TelegramNotification message: HTTP Error 404: Not Found
+2025-10-27 02:45:42 | telegram | ERROR | unexpected error sending notification: HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "D:\Web_Development\kill_enemy\circle\circle_v1\circle\core\notification\channels\telegram.py", line 27, in send
+    with urlopen(request) as response:
+         ^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2025-10-27 02:45:42 | notification | ERROR | Error sending TelegramNotification message: HTTP Error 404: Not Found
+2025-10-27 02:45:46 | telegram | ERROR | unexpected error sending notification: HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "D:\Web_Development\kill_enemy\circle\circle_v1\circle\core\notification\channels\telegram.py", line 27, in send
+    with urlopen(request) as response:
+         ^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2025-10-27 02:45:46 | notification | ERROR | Error sending TelegramNotification message: HTTP Error 404: Not Found
+2025-10-27 03:01:45 | telegram | ERROR | unexpected error sending notification: HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File "D:\Web_Development\kill_enemy\circle\circle_v1\circle\core\notification\channels\telegram.py", line 27, in send
+    with urlopen(request) as response:
+         ^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "D:\python312\Lib\urllib\request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+2025-10-27 03:01:45 | notification | ERROR | Error sending TelegramNotification message: HTTP Error 404: Not Found
+2025-10-27 03:10:23 | telegram | INFO | notification sent
+2025-10-27 03:10:23 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-27 03:10:28 | telegram | INFO | notification sent
+2025-10-27 03:10:28 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-27 03:30:19 | telegram | INFO | notification sent
+2025-10-27 03:30:19 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-27 03:30:24 | telegram | INFO | notification sent
+2025-10-27 03:30:24 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-27 03:30:29 | telegram | INFO | notification sent
+2025-10-27 03:30:29 | notification | INFO | Sent message via TelegramNotification successfully!
+2025-10-27 03:31:49 | desktop | INFO | successfully sent notification!
+2025-10-27 03:31:49 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-27 03:31:54 | desktop | INFO | successfully sent notification!
+2025-10-27 03:31:54 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-27 03:31:58 | desktop | INFO | successfully sent notification!
+2025-10-27 03:31:58 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-27 03:32:03 | desktop | INFO | successfully sent notification!
+2025-10-27 03:32:03 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-27 03:41:38 | desktop | INFO | successfully sent notification!
+2025-10-27 03:41:38 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-27 03:42:48 | desktop | INFO | successfully sent notification!
+2025-10-27 03:42:48 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-27 03:42:53 | desktop | INFO | successfully sent notification!
+2025-10-27 03:42:53 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-27 03:43:33 | desktop | INFO | successfully sent notification!
+2025-10-27 03:43:33 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-27 03:43:38 | desktop | INFO | successfully sent notification!
+2025-10-27 03:43:38 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-27 03:45:22 | desktop | INFO | successfully sent notification!
+2025-10-27 03:45:22 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-27 03:45:27 | desktop | INFO | successfully sent notification!
+2025-10-27 03:45:27 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-27 03:45:32 | desktop | INFO | successfully sent notification!
+2025-10-27 03:45:32 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-27 03:45:37 | desktop | INFO | successfully sent notification!
+2025-10-27 03:45:37 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-27 03:45:42 | desktop | INFO | successfully sent notification!
+2025-10-27 03:45:42 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-27 03:45:47 | desktop | INFO | successfully sent notification!
+2025-10-27 03:45:47 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-27 03:45:52 | desktop | INFO | successfully sent notification!
+2025-10-27 03:45:52 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-27 03:45:57 | desktop | INFO | successfully sent notification!
+2025-10-27 03:45:57 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-27 03:46:02 | desktop | INFO | successfully sent notification!
+2025-10-27 03:46:02 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-27 03:49:32 | desktop | INFO | successfully sent notification!
+2025-10-27 03:49:32 | notification | INFO | Sent message via DesktopNotification successfully!
+2025-10-27 03:49:37 | desktop | INFO | successfully sent notification!
+2025-10-27 03:49:37 | notification | INFO | Sent message via DesktopNotification successfully!

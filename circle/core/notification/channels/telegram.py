@@ -1,28 +1,32 @@
-from urllib.request import Request, urlopen
-from urllib.parse import urlencode
 from urllib.error import HTTPError, URLError
+from urllib.parse import urlencode
+from urllib.request import Request, urlopen
 
+from circle.config import config
+from circle.core.logger import logger
 from circle.core.notification.base import Notification
-from circle.core.config import config
 from circle.core.notification.exceptions import NotificationError
 from circle.core.notification.registry import register_channel
+
 
 @register_channel("telegram")
 class TelegramNotification(Notification):
 
-    def send(self, title,  message: str) -> None:
-        telegram_bot_url = f"https://api.telegram.org/bot{config.BOT_TOKEN}/sendMessage"
+    def __init__(self):
+        self._logger = logger.get_logger("telegram", config.LOG_DIR/"notification.log")
+
+    def send(self, title: str,  message: str) -> None:
         payload = urlencode({
-            "chat_id": config.CHAT_ID,
+            "chat_id": config.TELEGRAM_CHAT_ID,
             "text": f"{title}\n{message}"
         }).encode()
-
         try:
-            request = Request(telegram_bot_url, data=payload)
+            request = Request(config.TELEGRAM_CHAT_URI, data=payload)
             with urlopen(request) as response:
                 if response.getcode() == 200:
-                    print('Telegram message sent successfully')
+                    self._logger.info(f"notification sent")
                 else:
-                    print(f'Telegram responded with code: {response.getcode()}')
+                    self._logger.error(f"error sending notification: {response.getcode()}")
         except (HTTPError, URLError) as e:
+            self._logger.exception(f"unexpected error sending notification: {e}")
             raise NotificationError(str(e))
